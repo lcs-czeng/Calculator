@@ -9,16 +9,30 @@ import SwiftUI
 
 struct CalculatorMainView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            PlusView()
+                .tabItem {
+                    Label("Plus", systemImage: "plus")
+                }
+            
+            MinusView()
+                .tabItem {
+                    Label("Minus", systemImage: "minus")
+                }
+            
+            MultiplyView()
+                .tabItem {
+                    Label("Multiply", systemImage: "multiply")
+                }
+            
+            DivideView()
+                .tabItem {
+                    Label("Divide", systemImage: "divide")
+                }
+                .padding()
         }
-        .padding()
     }
 }
-
-#Preview {
-    CalculatorMainView()
-}
+    #Preview {
+        CalculatorMainView()
+    }
