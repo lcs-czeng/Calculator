@@ -8,8 +8,52 @@
 import SwiftUI
 
 struct PlusView: View {
+    
+    // MARK: Stored properties
+    
+    @State var first: Int = 1
+    
+    @State var second: Int = 2
+    
+    
+    // MARK: Computed properties
+    
+    var added: Int {
+        return first + second
+    }
+    
     var body: some View {
-        Text("PLUS")
+            
+            HStack {
+                
+                VStack(alignment: .trailing) {
+                    
+                    Text("\(first)")
+                        .font(.system(size: 76))
+                    
+                    Stepper(value: $first, label: {
+                        Text("select first number")
+                    })
+                    
+                    HStack {
+                        Text("÷")
+                            .font(.system(size: 60))
+                        Spacer()
+                        Text("\(second)")
+                            .font(.system(size: 76))
+                    }
+                    
+                    Stepper(value: $second, label: {
+                        Text("select first number")
+                    })
+                    
+                    Text("\(added)")
+                        .font(.system(size: 76))
+                    
+                    
+                }
+            }
+            .padding()
     }
 }
 
