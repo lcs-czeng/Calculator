@@ -13,7 +13,7 @@ struct PlusView: View {
     
     @State var first: Int = 1
     
-    @State var second: Int = 2
+    @State var second: Int = 1
     
     
     // MARK: Computed properties
@@ -36,7 +36,7 @@ struct PlusView: View {
                     })
                     
                     HStack {
-                        Text("÷")
+                        Text("+")
                             .font(.system(size: 60))
                         Spacer()
                         Text("\(second)")
@@ -47,9 +47,12 @@ struct PlusView: View {
                         Text("select first number")
                     })
                     
-                    Text("\(added)")
-                        .font(.system(size: 76))
-                    
+                    HStack {
+                        Text("result:")
+                        Spacer()
+                        Text("\(added)")
+                            .font(.system(size: 76))
+                    }
                     
                 }
             }

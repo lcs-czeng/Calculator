@@ -11,7 +11,6 @@
 		160367032D355C6D00DD5F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160366FE2D355C6D00DD5F51 /* Assets.xcassets */; };
 		160367042D355C6D00DD5F51 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160366FF2D355C6D00DD5F51 /* CalculatorApp.swift */; };
 		160367052D355C6D00DD5F51 /* CalculatorMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160367002D355C6D00DD5F51 /* CalculatorMainView.swift */; };
-		160367072D355C9A00DD5F51 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160367062D355C9A00DD5F51 /* InformationModel.swift */; };
 		160367092D355CAC00DD5F51 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160367082D355CAC00DD5F51 /* PlusView.swift */; };
 		1603670B2D355CB700DD5F51 /* MinusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603670A2D355CB700DD5F51 /* MinusView.swift */; };
 		1603670D2D355CC100DD5F51 /* MultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603670C2D355CC100DD5F51 /* MultiplyView.swift */; };
@@ -24,7 +23,6 @@
 		160366FE2D355C6D00DD5F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160366FF2D355C6D00DD5F51 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		160367002D355C6D00DD5F51 /* CalculatorMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMainView.swift; sourceTree = "<group>"; };
-		160367062D355C9A00DD5F51 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
 		160367082D355CAC00DD5F51 /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
 		1603670A2D355CB700DD5F51 /* MinusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusView.swift; sourceTree = "<group>"; };
 		1603670C2D355CC100DD5F51 /* MultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyView.swift; sourceTree = "<group>"; };
@@ -73,18 +71,9 @@
 				160367002D355C6D00DD5F51 /* CalculatorMainView.swift */,
 				160366FF2D355C6D00DD5F51 /* CalculatorApp.swift */,
 				160367112D355CFB00DD5F51 /* HelperViews */,
-				160367102D355CDB00DD5F51 /* Model */,
 				160366FD2D355C6D00DD5F51 /* Preview Content */,
 			);
 			path = Calculator;
-			sourceTree = "<group>";
-		};
-		160367102D355CDB00DD5F51 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				160367062D355C9A00DD5F51 /* InformationModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		160367112D355CFB00DD5F51 /* HelperViews */ = {
@@ -174,7 +163,6 @@
 				1603670D2D355CC100DD5F51 /* MultiplyView.swift in Sources */,
 				160367092D355CAC00DD5F51 /* PlusView.swift in Sources */,
 				160367042D355C6D00DD5F51 /* CalculatorApp.swift in Sources */,
-				160367072D355C9A00DD5F51 /* InformationModel.swift in Sources */,
 				1603670B2D355CB700DD5F51 /* MinusView.swift in Sources */,
 				160367052D355C6D00DD5F51 /* CalculatorMainView.swift in Sources */,
 				1603670F2D355CCC00DD5F51 /* DivideView.swift in Sources */,
