@@ -24,11 +24,6 @@ struct CalculatorMainView: View {
                 .tabItem {
                     Label("Multiply", systemImage: "multiply")
                 }
-            
-            DivideView()
-                .tabItem {
-                    Label("Divide", systemImage: "divide")
-                }
                 .padding()
         }
     }
